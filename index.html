@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fib(n) Calculator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <form class="fib-js-form">
+        <fieldset>
+            <legend>Fib(n) Calculator In JS</legend>
+            <label>Number
+                <input type="text" class="fib-js-input">
+            </label>  
+            <button class="fib-js-button">Calculate</button>
+            <div>Result: <span class="fib-js-display"></span></div>
+        </fieldset>
+      </form>
+      <form class="fib-wasm-form">
+        <fieldset>
+            <legend>Fib(n) Calculator In Wasm</legend>
+            <label>Number
+                <input type="text" class="fib-wasm-input">
+            </label>  
+            <button class="fib-wasm-button">Calculate</button>
+            <div>Result: <span class="fib-wasm-display"></span></div>
+        </fieldset>
+      </form>
+	<script src="index.js"></script>
+  </body>
+</html>
