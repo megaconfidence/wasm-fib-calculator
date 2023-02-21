@@ -3,7 +3,7 @@ This project demonstrates how to use WebAssembly in a web app and compares the
 performance of JavaScript to Wasm written in Rust
 
 ## Setup
-Create a rust project
+Create a Rust project. Follow the guide [here](https://doc.rust-lang.org/book/ch01-01-installation.html#installing-rustup-on-linux-or-macos) to install Rust locally
 ```sh 
 cargo new wasm-fib-rust
 ```
