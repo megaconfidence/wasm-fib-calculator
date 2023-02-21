@@ -1,6 +1,6 @@
 function fib(n) {
-    if(n < 1) return 1;
-    return fib(n-1)+fib(n-2);
+    if (n < 1) return 1;
+    return fib(n - 1) + fib(n - 2);
 }
 
 document.querySelector('.fib-js-form').addEventListener('submit', (e) => {
@@ -9,5 +9,5 @@ document.querySelector('.fib-js-form').addEventListener('submit', (e) => {
     const start = performance.now();
     const val = fib(num);
     const end = performance.now();
-    document.querySelector('.fib-js-display').innerText =`${val} - in ${end-start}ms`;
+    document.querySelector('.fib-js-display').innerText = `${val} - in ${Math.round(end - start)}ms`;
 });

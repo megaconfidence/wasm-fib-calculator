@@ -7,6 +7,6 @@ init().then(() => {
         const start = performance.now();
         const val = wasmfib(num);
         const end = performance.now();
-        document.querySelector('.fib-wasm-display').innerText = `${val} - in ${end - start}ms`;
+        document.querySelector('.fib-wasm-display').innerText = `${val} - in ${Math.round(end - start)}ms`;
     });
 })
