@@ -1,4 +1,4 @@
-import init, { wasmfib } from "./pkg/factorial_app_wasm.js"
+import init, { wasmfib } from "./pkg/wasm_fib_rust.js"
 
 init().then(() => {
     const form = document.querySelector('.fib-wasm-form');
