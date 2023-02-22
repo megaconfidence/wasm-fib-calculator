@@ -35,6 +35,11 @@ Build the project with
 ```sh 
 wasm-pack build --target web 
 ```
+Clone the starter repo
+```
+cd ../
+git clone https://github.com/megaconfidence/wasm-fib-calculator.git
+```
 Copy the `pkg/` directory into the project root
 ```sh 
 cp -r wasm-fib-rust/pkg wasm-fib-calculator/pkg
