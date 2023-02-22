@@ -46,6 +46,7 @@ cp -r wasm-fib-rust/pkg wasm-fib-calculator/pkg
 ```
 Startup the project using a static file server
 ```sh 
-python -m http.server 8000
+cd wasm-fib-calculator/
+python3 -m http.server 8000
 ```
 Visit the project on [http://localhost:8000/](http://localhost:8000/)
