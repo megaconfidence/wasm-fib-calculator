@@ -1,0 +1,14 @@
+{
+  "name": "wasm-fib-rust",
+  "version": "0.1.0",
+  "files": [
+    "wasm_fib_rust_bg.wasm",
+    "wasm_fib_rust.js",
+    "wasm_fib_rust.d.ts"
+  ],
+  "module": "wasm_fib_rust.js",
+  "types": "wasm_fib_rust.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
